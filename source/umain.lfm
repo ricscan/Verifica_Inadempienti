@@ -1,0 +1,586 @@
+object Form1: TForm1
+  Left = 418
+  Height = 532
+  Top = 214
+  Width = 1118
+  Caption = 'Verifica Inadempienze 1.0 - '
+  ClientHeight = 532
+  ClientWidth = 1118
+  Menu = MainMenu1
+  LCLVersion = '4.6.0.0'
+  OnClose = FormClose
+  OnCreate = FormCreate
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 509
+    Width = 1118
+    Panels = <>
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 509
+    Top = 0
+    Width = 1118
+    ActivePage = TabSheet2
+    Align = alClient
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Consolas'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabIndex = 0
+    TabOrder = 1
+    OnChange = PageControl1Change
+    object TabSheet2: TTabSheet
+      Caption = 'Dati File'
+      ClientHeight = 482
+      ClientWidth = 1110
+      object GroupBox1: TGroupBox
+        Left = 17
+        Height = 88
+        Top = 232
+        Width = 848
+        Caption = 'Intestazione'
+        ClientHeight = 69
+        ClientWidth = 844
+        TabOrder = 0
+        object Label12: TLabel
+          Left = 8
+          Height = 14
+          Top = 8
+          Width = 77
+          Caption = 'Tipo Record'
+        end
+        object EditTipoRec: TEdit
+          Left = 8
+          Height = 22
+          Top = 24
+          Width = 48
+          TabOrder = 0
+        end
+        object EditHeadeProgRec: TEdit
+          Left = 118
+          Height = 22
+          Top = 24
+          Width = 96
+          TabOrder = 1
+        end
+        object EditHeadIdFile: TEdit
+          Left = 220
+          Height = 22
+          Top = 24
+          Width = 160
+          TabOrder = 2
+        end
+        object EditHeadDataFile: TEdit
+          Left = 384
+          Height = 22
+          Top = 24
+          Width = 88
+          TabOrder = 3
+        end
+        object EditHeadRelease: TEdit
+          Left = 480
+          Height = 22
+          Top = 24
+          Width = 48
+          TabOrder = 4
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 16
+        Height = 88
+        Top = 336
+        Width = 849
+        Caption = 'Riepilogo'
+        ClientHeight = 69
+        ClientWidth = 845
+        TabOrder = 1
+        object Label13: TLabel
+          Left = 9
+          Height = 14
+          Top = 8
+          Width = 77
+          Caption = 'Tipo Record'
+        end
+        object EditFootTipoRec: TEdit
+          Left = 9
+          Height = 22
+          Top = 24
+          Width = 48
+          TabOrder = 0
+        end
+        object EditFootProgRec: TEdit
+          Left = 119
+          Height = 22
+          Top = 24
+          Width = 96
+          TabOrder = 1
+        end
+        object EditFootIdFile: TEdit
+          Left = 221
+          Height = 22
+          Top = 24
+          Width = 160
+          TabOrder = 2
+        end
+        object EditFootDataFile: TEdit
+          Left = 385
+          Height = 22
+          Top = 24
+          Width = 88
+          TabOrder = 3
+        end
+        object EditFootNumRec: TEdit
+          Left = 481
+          Height = 22
+          Top = 24
+          Width = 88
+          TabOrder = 4
+        end
+      end
+      object GroupBox3: TGroupBox
+        Left = 17
+        Height = 208
+        Top = 16
+        Width = 848
+        Caption = 'Nome File'
+        ClientHeight = 189
+        ClientWidth = 844
+        TabOrder = 2
+        object EditNomeFilePath: TEdit
+          Left = 128
+          Height = 22
+          Top = 24
+          Width = 672
+          TabOrder = 0
+        end
+        object Label1: TLabel
+          Left = 16
+          Height = 14
+          Top = 28
+          Width = 91
+          Caption = 'Nome Percorso'
+        end
+        object Label2: TLabel
+          Left = 41
+          Height = 14
+          Top = 64
+          Width = 28
+          Caption = 'IRME'
+          OnClick = Label2Click
+        end
+        object Edit1: TEdit
+          Left = 128
+          Height = 22
+          Top = 56
+          Width = 80
+          TabOrder = 1
+          Text = 'IRME'
+        end
+        object Label3: TLabel
+          Left = 41
+          Height = 14
+          Top = 88
+          Width = 21
+          Caption = 'EQS'
+          OnClick = Label2Click
+        end
+        object Edit2: TEdit
+          Left = 128
+          Height = 22
+          Top = 80
+          Width = 80
+          TabOrder = 2
+          Text = 'EQS'
+        end
+        object EditFileAnno: TEdit
+          Left = 128
+          Height = 22
+          Top = 108
+          Width = 80
+          TabOrder = 3
+          Text = 'EQS'
+          OnChange = EditFileAnnoChange
+        end
+        object Label4: TLabel
+          Left = 41
+          Height = 14
+          Top = 116
+          Width = 28
+          Caption = 'Anno'
+          FocusControl = Button1
+          OnClick = Label2Click
+        end
+        object Label5: TLabel
+          Left = 41
+          Height = 14
+          Top = 144
+          Width = 77
+          Caption = 'PROGRESSIVO'
+          FocusControl = Button1
+          OnClick = Label2Click
+        end
+        object EditFileProgressivo: TEdit
+          Left = 128
+          Height = 22
+          Top = 140
+          Width = 80
+          TabOrder = 4
+          Text = 'EQS'
+          OnChange = EditFileProgressivoChange
+        end
+        object Label6: TLabel
+          Left = 128
+          Height = 14
+          Top = 167
+          Width = 644
+          Caption = 'Numero Progressivo del flusso, dev''essere univoco nell''anno della data di creazione del file'
+          FocusControl = Button1
+          OnClick = Label2Click
+        end
+        object Label14: TLabel
+          Left = 320
+          Height = 14
+          Top = 96
+          Width = 63
+          Caption = 'Nome File'
+        end
+        object EditNomeFile: TEdit
+          Left = 424
+          Height = 22
+          Top = 88
+          Width = 335
+          ReadOnly = True
+          TabOrder = 5
+        end
+      end
+    end
+    object TabSheet1: TTabSheet
+      Caption = 'Dati Beneficiari'
+      ClientHeight = 482
+      ClientWidth = 1110
+      object Panel2: TPanel
+        Left = 0
+        Height = 34
+        Top = 0
+        Width = 1110
+        Align = alTop
+        TabOrder = 0
+      end
+      object ListView1: TListView
+        Left = 0
+        Height = 293
+        Top = 34
+        Width = 1110
+        Align = alClient
+        Columns = <        
+          item
+            Caption = 'Tipo'
+          end        
+          item
+            Caption = 'Prog.Record'
+            Width = 100
+          end        
+          item
+            Caption = 'Prog.Richiesta'
+            Width = 100
+          end        
+          item
+            Caption = 'Tipo Soggetto'
+          end        
+          item
+            Caption = 'Codice Fiscale'
+            Width = 150
+          end        
+          item
+            Caption = 'Nominativo'
+            Width = 200
+          end        
+          item
+            Caption = 'ID Pagamento'
+            Width = 150
+          end        
+          item
+            Alignment = taRightJustify
+            Caption = 'Importo'
+            Width = 150
+          end>
+        GridLines = True
+        HideSelection = False
+        RowSelect = True
+        TabOrder = 1
+        ViewStyle = vsReport
+        OnClick = ListView1Click
+      end
+      object Panel1: TPanel
+        Left = 0
+        Height = 155
+        Top = 327
+        Width = 1110
+        Align = alBottom
+        ClientHeight = 155
+        ClientWidth = 1110
+        Color = clBtnFace
+        ParentBackground = False
+        ParentColor = False
+        TabOrder = 2
+        object CBTipoSoggetto: TComboBox
+          Left = 16
+          Height = 22
+          Top = 32
+          Width = 192
+          ItemHeight = 14
+          Items.Strings = (
+            ''
+            '1 - Persona Fisica'
+            '2 - Persona Giuridica'
+          )
+          TabOrder = 0
+        end
+        object Label7: TLabel
+          Left = 16
+          Height = 14
+          Top = 16
+          Width = 91
+          Caption = 'Tipo Soggetto'
+        end
+        object EditCodiceFiscale: TEdit
+          Left = 230
+          Height = 22
+          Top = 32
+          Width = 168
+          TabOrder = 1
+        end
+        object Label8: TLabel
+          Left = 230
+          Height = 14
+          Top = 16
+          Width = 98
+          Caption = 'Codice Fiscale'
+        end
+        object EditNominativo: TEdit
+          Left = 422
+          Height = 22
+          Top = 32
+          Width = 168
+          TabOrder = 2
+        end
+        object Label9: TLabel
+          Left = 422
+          Height = 14
+          Top = 16
+          Width = 70
+          Caption = 'Nominativo'
+        end
+        object EditIDPagamento: TEdit
+          Left = 606
+          Height = 22
+          Top = 32
+          Width = 168
+          TabOrder = 3
+        end
+        object Label10: TLabel
+          Left = 606
+          Height = 14
+          Top = 16
+          Width = 84
+          Caption = 'ID Pagamento'
+        end
+        object EditImporto: TEdit
+          Left = 798
+          Height = 22
+          Top = 32
+          Width = 168
+          Alignment = taRightJustify
+          TabOrder = 4
+        end
+        object Label11: TLabel
+          Left = 798
+          Height = 14
+          Top = 16
+          Width = 49
+          Caption = 'Importo'
+        end
+        object BtnAggiorna: TButton
+          Left = 984
+          Height = 25
+          Top = 29
+          Width = 75
+          Caption = 'Aggiorna'
+          TabOrder = 5
+        end
+        object BtnInserisci: TButton
+          Left = 984
+          Height = 25
+          Top = 56
+          Width = 75
+          Caption = 'Inserisci'
+          TabOrder = 6
+        end
+        object BtnElimina: TButton
+          Left = 984
+          Height = 25
+          Top = 84
+          Width = 75
+          Caption = 'Elimina'
+          TabOrder = 7
+          OnClick = BtnEliminaClick
+        end
+        object MaskEdit1: TMaskEdit
+          Left = 576
+          Height = 22
+          Top = 97
+          Width = 80
+          EnableSets = False
+          MaxLength = 7
+          TabOrder = 8
+          EditMask = '9999,99;1;_'
+          Text = '    ,  '
+          SpaceChar = '_'
+          OnChange = MaskEdit1Change
+        end
+        object FloatSpinEditEx1: TFloatSpinEditEx
+          Left = 320
+          Height = 22
+          Top = 99
+          Width = 159
+          MaxLength = 0
+          SpinButtonWidth = 17
+          TabOrder = 9
+          OnChange = FloatSpinEditEx1Change
+          DecimalSeparator = ','
+          UpDownVisible = False
+        end
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Persone'
+      ClientHeight = 482
+      ClientWidth = 1110
+      object DBGrid1: TDBGrid
+        Left = 8
+        Height = 424
+        Top = 8
+        Width = 459
+        Color = clWindow
+        Columns = <>
+        DataSource = DataSource1
+        Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgDisplayMemoText]
+        TabOrder = 0
+      end
+      object Button1: TButton
+        Left = 680
+        Height = 25
+        Top = 199
+        Width = 75
+        Caption = 'Button1'
+        TabOrder = 1
+        OnClick = Button1Click
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'File Testo'
+      ClientHeight = 482
+      ClientWidth = 1110
+      object Memo1: TMemo
+        Left = 0
+        Height = 482
+        Top = 0
+        Width = 1110
+        Align = alClient
+        Font.CharSet = ANSI_CHARSET
+        Font.Height = -13
+        Font.Name = 'Consolas'
+        Font.Pitch = fpFixed
+        Font.Quality = fqDraft
+        Lines.Strings = (
+          'Memo1'
+        )
+        ParentFont = False
+        TabOrder = 0
+        WordWrap = False
+      end
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 912
+    Top = 48
+    object MenuItem1: TMenuItem
+      Caption = 'File'
+      object MenuItem2: TMenuItem
+        Caption = 'Apri...'
+        OnClick = MenuItem2Click
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'Salva...'
+        OnClick = MenuItem3Click
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Esci..'
+        OnClick = MenuItem4Click
+      end
+    end
+    object MenuItem7: TMenuItem
+      Caption = 'Archivi'
+      object MenuItem8: TMenuItem
+        Caption = 'Importa Nominativi...'
+        OnClick = MenuItem8Click
+      end
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Info'
+      object MenuItem6: TMenuItem
+        Caption = 'About...'
+        OnClick = MenuItem6Click
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 968
+    Top = 48
+  end
+  object SaveDialog1: TSaveDialog
+    Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
+    Left = 1032
+    Top = 48
+  end
+  object SQLite3Connection1: TSQLite3Connection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'C:\Riccardo\Pascal\VerInad\VerInad.db'
+    KeepConnection = False
+    Transaction = SQLTransaction1
+    AlwaysUseBigint = False
+    Left = 1032
+    Top = 200
+  end
+  object DataSource1: TDataSource
+    DataSet = SQLQuery1
+    Left = 968
+    Top = 144
+  end
+  object SQLTransaction1: TSQLTransaction
+    Active = False
+    Database = SQLite3Connection1
+    Left = 1032
+    Top = 144
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Database = SQLite3Connection1
+    Transaction = SQLTransaction1
+    Params = <>
+    Macros = <>
+    Left = 1032
+    Top = 264
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    Left = 920
+    Top = 200
+  end
+end

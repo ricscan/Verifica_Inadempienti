@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="PrjInadempienti.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="31" Y="12"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+        <TopLine Value="215"/>
+        <CursorPos X="48" Y="345"/>
+        <FoldState Value=" T3pc0. TLrL0)O"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uclsverinad.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uClsVerInad"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="157"/>
+        <CursorPos Y="367"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="helpertipi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HelperTipi"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="44" Y="15"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\lazarus\components\lazutils\lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3987"/>
+        <CursorPos Y="4007"/>
+        <UsageCount Value="8"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="28">
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="83" Column="68" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="84" Column="27" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="83" Column="3" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="8" Column="44"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="195" Column="3" TopLine="173"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="164" Column="9" TopLine="149"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="178" TopLine="92"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="210" Column="41" TopLine="207"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="241" Column="25" TopLine="213"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="105" Column="23" TopLine="102"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="455" Column="83" TopLine="287"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="175" Column="41" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="142" Column="9" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="144" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="145" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="150" Column="14" TopLine="127"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="455" TopLine="437"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="468" Column="33" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="147" Column="63" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="108" Column="35" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="520" Column="3" TopLine="343"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="273" Column="23" TopLine="271"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="520" Column="41" TopLine="347"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="150" Column="22" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="522" Column="22" TopLine="416"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="342" Column="131" TopLine="328"/>
+      </Position>
+      <Position>
+        <Filename Value="umain.pas"/>
+        <Caret Line="343" Column="131" TopLine="329"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="448" Column="62" TopLine="441"/>
+      </Position>
+      <Position>
+        <Filename Value="uclsverinad.pas"/>
+        <Caret Line="456" Column="9" TopLine="438"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="PrjInadempienti.lpr"/>
+        <Line Value="13"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
